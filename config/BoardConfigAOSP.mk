@@ -1,0 +1,1 @@
+include vendor/lineage/config/BoardConfigQcom.mk
