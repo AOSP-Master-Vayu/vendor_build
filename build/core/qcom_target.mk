@@ -61,4 +61,4 @@ define project-path-for
 $(foreach n,$(1),$(patsubst $(n):%,%,$(filter $(n):%,$(pathmap_PROJ))))
 endef
 
-include vendor/lineage/build/core/utils.mk
+include vendor/build/build/core/utils.mk
