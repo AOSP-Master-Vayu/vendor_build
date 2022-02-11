@@ -30,9 +30,6 @@ $(call set-device-specific-path,DATASERVICES,dataservices,vendor/qcom/opensource
 $(call set-device-specific-path,VR,vr,hardware/qcom-caf/vr)
 $(call set-device-specific-path,WLAN,wlan,hardware/qcom-caf/wlan)
 
-PRODUCT_CFI_INCLUDE_PATHS += \
-    hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib
-
 #
 # Returns the path to the requested module's include directory,
 # relative to the root of the source tree.  Does not handle external
